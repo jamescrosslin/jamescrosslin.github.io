@@ -79,11 +79,11 @@
     });
   }
 
-  // Main Sections: Two.
+  // Main Sections: gallery.
 
   // Lightbox gallery.
   $window.on("load", function () {
-    $("#two").poptrox({
+    $("#gallery").poptrox({
       caption: function ($a) {
         return $a.next("h3").text();
       },
